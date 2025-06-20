@@ -5,3 +5,5 @@ export { default as ContactHeader } from './ContactHeader';
 export { default as SocialLinksSection } from './SocialLinksSection';
 export { default as ContactFooter } from './ContactFooter';
 // ... other section components
+export { default as ExperienceSection } from './ExperienceSection';
+// ... other section components
