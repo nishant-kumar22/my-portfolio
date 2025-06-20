@@ -130,7 +130,7 @@ function App() {
       </a>
 
       <a 
-        href="https://drive.google.com/file/d/1KMq-ew508PqDPhmDqk8zG3c_Y5TEr-Hx/view" 
+        href="#" 
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center border border-gray-600 hover:border-gray-400 px-8 py-3 rounded-lg font-semibold transition-colors"
