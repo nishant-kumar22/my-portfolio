@@ -1,15 +1,23 @@
 import React, { useState, useEffect, useRef } from "react";
 import ParticlesBackground from "./Effects/ParticlesBackground";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import About from "./components/About";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Navigation from "./components/Navigation";
-import Loading from "./components/Loading";
-import useScrollPosition from "./hooks/useScrollPosition";
-import useLoadingState from "./hooks/useLoadingState";
-import useOutsideClick from "./hooks/useOutsideClick";
+
+// Clean barrel imports for components
+import {
+  Navigation,
+  Hero,
+  Loading,
+  About,
+  Projects,
+  Experience,
+  Contact
+} from "./components";
+
+// Clean barrel imports for hooks
+import {
+  useScrollPosition,
+  useLoadingState,
+  useOutsideClick
+} from "./hooks";
 
 function App() {
   // State management
