@@ -13,4 +13,9 @@ export { default as AchievementItem } from './AchievementItem';
 export { default as HighlightedText } from './HighlightedText';
 export { default as ExperienceTimeline } from './ExperienceTimeline';
 export { default as SkillsUsed } from './SkillsUsed';
-// ... other UI components
+
+
+export { default as ProjectIcon } from './ProjectIcon';
+export { default as TechTag } from './TechTag';
+export { default as ProjectCategoryHeader } from './ProjectCategoryHeader';
+export { default as ProjectCard } from './ProjectCard';
