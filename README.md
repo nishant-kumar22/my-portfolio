@@ -95,20 +95,48 @@ portfolio/
 │   └── vite.svg
 ├── src/
 │   ├── components/           # Modular React components
-│   │   ├── About.jsx        # About section component
+│   │   ├── ui/              # Reusable UI components
+│   │   │   ├── ProjectCard.jsx       # Project display cards
+│   │   │   ├── TechTag.jsx          # Technology tags
+│   │   │   ├── ExperienceCard.jsx   # Experience timeline cards
+│   │   │   ├── DateBadge.jsx        # Date display component
+│   │   │   ├── AchievementList.jsx  # Achievement listings
+│   │   │   ├── AchievementItem.jsx  # Individual achievement items
+│   │   │   ├── HighlightedText.jsx  # Text highlighting component
+│   │   │   ├── GitHubIcon.jsx       # GitHub icon component
+│   │   │   ├── PlayIcon.jsx         # Play icon component
+│   │   │   ├── ProfileCard.jsx      # About section profile card
+│   │   │   ├── SkillsGrid.jsx       # Skills display grid
+│   │   │   ├── SkillCategory.jsx    # Individual skill categories
+│   │   │   ├── DropdownButton.jsx   # Dropdown button component
+│   │   │   └── DropdownMenu.jsx     # Dropdown menu component
+│   │   ├── sections/        # Page section components
+│   │   │   ├── ContactHeader.jsx    # Contact section header
+│   │   │   ├── ProjectsSection.jsx  # Projects main section
+│   │   │   ├── ExperienceSection.jsx # Experience main section
+│   │   │   ├── AboutSection.jsx     # About main section
+│   │   │   └── ProjectCategory.jsx  # Project category display
+│   │   ├── About.jsx        # About section wrapper
 │   │   ├── Contact.jsx      # Contact section component
-│   │   ├── Experience.jsx   # Experience section component
+│   │   ├── Experience.jsx   # Experience section wrapper
 │   │   ├── Hero.jsx         # Hero section component
 │   │   ├── Loading.jsx      # Loading screen component
 │   │   ├── Navigation.jsx   # Navigation component
-│   │   ├── Projects.jsx     # Projects section component
+│   │   ├── Projects.jsx     # Projects section wrapper
 │   │   └── ResumeDropdown.jsx # Resume dropdown component
+│   ├── data/                # Data configuration files
+│   │   ├── projectsData.js  # Project information and categories
+│   │   ├── experienceData.js # Work experience data
+│   │   ├── aboutData.js     # Personal information and skills
+│   │   └── resumeData.js    # Resume download options
 │   ├── hooks/               # Custom React hooks
 │   │   ├── useLoadingState.js    # Loading state management
 │   │   ├── useOutsideClick.js    # Outside click detection
 │   │   └── useScrollPosition.js  # Scroll position tracking
 │   ├── Effects/
 │   │   └── ParticlesBackground.jsx # Interactive particle animation
+│   ├── styles/              # Custom styles (optional)
+│   │   └── custom.css       # Additional CSS utilities
 │   ├── App.jsx              # Main application component
 │   ├── main.jsx             # Application entry point
 │   └── index.css            # Global styles with Tailwind imports
@@ -116,6 +144,7 @@ portfolio/
 ├── package.json             # Dependencies and scripts
 ├── vite.config.js          # Vite configuration
 ├── eslint.config.js        # ESLint configuration
+├── tailwind.config.js      # Tailwind CSS configuration
 └── README.md               # Project documentation
 ```
 
@@ -213,4 +242,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ⚡ React + Vite | Styled with 🎨 Tailwind CSS | Deployed on 🚀 Vercel**
 
-**Made with ❤️ by by Nishant Kumar**
+**Made with ❤️ by Nishant Kumar**
