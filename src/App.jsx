@@ -146,7 +146,7 @@ function App() {
 
 
       {/* About Section */}
-      <section id="about" className="py-20 px-6 bg-gray-800">
+       <section id="about" className="py-20 px-6 bg-gray-800">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -154,9 +154,10 @@ function App() {
               <p className="text-lg text-gray-300 leading-relaxed">
                 I'm a passionate <span className="text-blue-400 font-semibold">Software Engineer</span> with a strong foundation in 
                 <span className="text-purple-400 font-semibold"> backend development</span>, 
-                <span className="text-green-400 font-semibold"> data analysis</span>, and 
-                <span className="text-orange-400 font-semibold"> machine learning</span>. I thrive on building scalable solutions 
-                that solve real-world problems and create meaningful user experiences.
+                <span className="text-green-400 font-semibold"> data analysis</span>, 
+                <span className="text-orange-400 font-semibold"> machine learning</span>, and 
+                <span className="text-red-400 font-semibold"> game development</span>. I thrive on building scalable solutions 
+                that solve real-world problems and create engaging user experiences.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed">
@@ -167,6 +168,8 @@ function App() {
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
+                As a <span className="text-red-400">Roblox game developer</span>, I create immersive multiplayer experiences using 
+                <span className="text-orange-400"> Lua and Roblox Studio</span>, including tower defense games, FPS shooters, and racing simulators. 
                 Currently diving deeper into <span className="text-orange-400">machine learning</span> with hands-on projects using scikit-learn 
                 for classification, regression, and clustering tasks. When I'm not coding, you'll find me exploring new technologies, 
                 contributing to open-source projects, or experimenting with data visualization using Matplotlib.
@@ -177,6 +180,7 @@ function App() {
                 <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm">Full-Stack Developer</span>
                 <span className="px-3 py-1 bg-green-600/20 text-green-300 rounded-full text-sm">Data Enthusiast</span>
                 <span className="px-3 py-1 bg-orange-600/20 text-orange-300 rounded-full text-sm">ML Explorer</span>
+                <span className="px-3 py-1 bg-red-600/20 text-red-300 rounded-full text-sm">Game Developer</span>
                 <span className="px-3 py-1 bg-yellow-600/20 text-yellow-300 rounded-full text-sm">Cloud Native</span>
               </div>
             </div>
@@ -185,7 +189,7 @@ function App() {
               <div className="bg-gray-900 p-6 rounded-lg">
                 <h3 className="text-xl font-bold text-blue-400 mb-4">💻 Languages</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Python', 'C/C++', 'JavaScript', 'SQL', 'HTML/CSS', 'Lua'].map((lang) => (
+                  {['Python', 'C/C++', 'JavaScript', 'Lua', 'SQL', 'HTML/CSS'].map((lang) => (
                     <span key={lang} className="px-3 py-1 bg-gray-700 text-gray-300 rounded text-sm">
                       {lang}
                     </span>
@@ -210,6 +214,17 @@ function App() {
                   {['pandas', 'NumPy', 'Matplotlib', 'scikit-learn', 'PostgreSQL'].map((lib) => (
                     <span key={lib} className="px-3 py-1 bg-gray-700 text-gray-300 rounded text-sm">
                       {lib}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-gray-900 p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-red-400 mb-4">🎮 Game Development</h3>
+                <div className="flex flex-wrap gap-2">
+                  {['Lua', 'Roblox Studio', 'Game Design', 'Multiplayer Systems', 'UI/UX'].map((skill) => (
+                    <span key={skill} className="px-3 py-1 bg-gray-700 text-gray-300 rounded text-sm">
+                      {skill}
                     </span>
                   ))}
                 </div>
