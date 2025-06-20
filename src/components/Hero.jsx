@@ -1,7 +1,11 @@
 import React from "react";
 import ResumeDropdown from "./ResumeDropdown";
 
-function Hero({ isResumeDropdownOpen, setIsResumeDropdownOpen }) {
+function Hero({
+  isResumeDropdownOpen,
+  setIsResumeDropdownOpen,
+  resumeDropdownRef,
+}) {
   return (
     <section className="pt-40 pb-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
@@ -12,6 +16,7 @@ function Hero({ isResumeDropdownOpen, setIsResumeDropdownOpen }) {
           I create innovative solutions and build amazing web applications
         </p>
         <div className="flex flex-wrap justify-center gap-4">
+          {/* GitHub and LeetCode links */}
           <a
             href="https://github.com/nishant-kumar22"
             target="_blank"
@@ -44,10 +49,12 @@ function Hero({ isResumeDropdownOpen, setIsResumeDropdownOpen }) {
             LeetCode
           </a>
 
-          <ResumeDropdown
-            isOpen={isResumeDropdownOpen}
-            setIsOpen={setIsResumeDropdownOpen}
-          />
+          <div ref={resumeDropdownRef}>
+            <ResumeDropdown
+              isOpen={isResumeDropdownOpen}
+              setIsOpen={setIsResumeDropdownOpen}
+            />
+          </div>
         </div>
       </div>
     </section>
