@@ -1,5 +1,5 @@
 import React from "react";
-import ResumeDropdown from "./ResumeDropdown";
+import ResumeButton from './ResumeButton';
 
 function Hero({
   isResumeDropdownOpen,
@@ -50,10 +50,12 @@ function Hero({
           </a>
 
           <div ref={resumeDropdownRef}>
-            <ResumeDropdown
+            {/* <ResumeDropdown
               isOpen={isResumeDropdownOpen}
               setIsOpen={setIsResumeDropdownOpen}
-            />
+            /> */}
+
+            <ResumeButton />
           </div>
         </div>
       </div>
