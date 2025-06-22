@@ -8,7 +8,7 @@ function ResumeButton() {
       href={resumeUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center border border-gray-600 hover:border-gray-400 px-8 py-3 rounded-lg font-semibold transition-all duration-300 group hover:bg-gray-800"
+      className="inline-flex items-center border border-gray-600 hover:border-gray-400 px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-gray-800"
     >
       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
         <path
