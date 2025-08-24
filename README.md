@@ -52,7 +52,7 @@ A modern, responsive portfolio website built with React and Vite, showcasing my 
 - **Killzone Strike**: Multiplayer FPS with custom weapon systems
 
 ### 💼 Professional Experience
-- **Associate SDE Intern** at Chicmic Studios (Jan 2025 – Present)
+- **Associate SDE Intern** at Chicmic Studios (Jan 2025 – June 2025)
 - **Full-Stack Developer Trainee** at Knowe Digitech (Jun 2023 – Jul 2023)
 
 ### 📞 Contact
