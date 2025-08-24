@@ -4,7 +4,7 @@ export const experienceData = [
     role: 'Associate SDE Intern',
     company: 'Chicmic Studios',
     location: 'Punjab, India',
-    duration: 'Jan 2025 – Present',
+    duration: 'Jan 2025 – June 2025',
     badgeColor: 'blue',
     skills: [
       { name: 'Lua', color: 'orange' },
@@ -21,9 +21,9 @@ export const experienceData = [
         ]
       },
       {
-        description: 'Designed and implemented 15+ custom UI/UX elements using TweenService, driving a 25% increase in user engagement through enhanced visual interactivity and seamless transitions.',
+        description: 'Designed and implemented 100+ custom UI/UX elements using TweenService, driving a 25% increase in user engagement through enhanced visual interactivity and seamless transitions.',
         highlights: [
-          { text: '15+ custom UI/UX elements', color: 'purple-400' },
+          { text: '100+ custom UI/UX elements', color: 'purple-400' },
           { text: '25% increase', color: 'green-400' }
         ]
       },
