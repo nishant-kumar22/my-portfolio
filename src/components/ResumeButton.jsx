@@ -1,7 +1,7 @@
 import React from "react";
 
 function ResumeButton() {
-  const resumeUrl = "https://drive.google.com/file/d/1kPLk1lXMCynCRrjrZGShb8suxNO9w35P/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/179aZ5Kx_3NzuT0hTbBI37jDn9qjWWfOF/view";
 
   return (
     <a
